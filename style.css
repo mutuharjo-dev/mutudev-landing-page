@@ -1,0 +1,206 @@
+@font-face {
+  font-family: Rubik-Regular;
+  src: url('./assets/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: Rubik-Medium;
+  src: url('./assets/fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+  font-family: Rubik-Bold;
+  src: url('./assets/fonts/Rubik-Bold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 128px;
+  box-shadow: 0px -2px 24px -8px rgba(0, 0, 0, 0.25);
+}
+
+.brand {
+  text-decoration: none;
+  font-family: Rubik-Bold;
+  color: #3b82f6;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 32px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-family: Rubik-regular;
+  text-decoration: none;
+  color: #3f3d56;
+}
+
+nav ul li:first-child a {
+  color: #3b82f6;
+}
+
+/* MAIN */
+
+main {
+  padding: 64px 128px;
+}
+
+.header {
+  display: flex;
+  padding: 64px 0;
+}
+
+.header-detail {
+  flex-basis: 50%;
+}
+
+.header-detail h4 {
+  font-size: 24px;
+  font-family: Rubik-Medium;
+  color: #3f3d56;
+  margin-bottom: 4px;
+}
+
+.header-detail h1 {
+  font-size: 64px;
+  font-family: Rubik-Bold;
+  color: #3f3d56;
+  margin-bottom: 12px;
+}
+
+.header-detail p {
+  font-size: 18px;
+  font-family: Rubik-Regular;
+  color: #3f3d56;
+  margin-bottom: 24px;
+}
+
+.header-detail button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #3b82f6;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}
+
+.header-image img {
+  height: 400px;
+}
+
+.habits {
+  padding: 64px 0;
+}
+
+.habits-title {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.habits-title h2 {
+  font-family: Rubik-Medium;
+  color: #3f3d56;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.habits-title p {
+  font-family: Rubik-Regular;
+  color: #3f3d56;
+  font-size: 18px;
+  text-align: center;
+}
+
+.habits-creative {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.habits-creative__title h4 {
+  font-size: 24px;
+  font-family: Rubik-Regular;
+  margin-bottom: 12px;
+  color: #3f3d56;
+}
+
+.habits-creative__title p {
+  font-size: 18px;
+  font-family: Rubik-Regular;
+  color: #3f3d56;
+}
+
+.habits-consistent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.habits-consistent__title h4 {
+  font-size: 24px;
+  font-family: Rubik-Regular;
+  margin-bottom: 12px;
+  color: #3f3d56;
+}
+
+.habits-consistent__title p {
+  font-size: 18px;
+  font-family: Rubik-Regular;
+  color: #3f3d56;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 128px;
+  background-color: #3f3d56;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer ul li {
+  margin: 0 16px;
+}
+
+footer ul li a {
+  font-size: 18px;
+  font-family: Rubik-regular;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 18px;
+  font-family: Rubik-regular;
+  color: #fff;
+}
